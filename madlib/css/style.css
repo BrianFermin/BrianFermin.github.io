@@ -1,0 +1,62 @@
+/*FOR HOMEWORK:*/
+/*//PLAY WITH THE STYLING OF THE MADLIB
+//THINK ABOUT USER-INTERACTION
+//UTILIZE DIFFERENT CSS PROPERTIES
+//EXAMPLE HOVER EFFECTS 
+//COLOR CHOICES
+//POSITIONING AND LAYOUT
+//TYPOGRAPHY 
+*/
+body {
+  background-color: #f9f9f9;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0; }
+
+::selection {
+  background-color: tomato;
+  color: white; }
+
+::-moz-selection {
+  background-color: tomato;
+  color: white; }
+
+h1 {
+  color: tomato;
+  font-size: 60px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 25px 0; }
+
+input {
+  display: block;
+  font-family: 'Open Sans', sans-serif; }
+
+.text-box {
+  margin: 10px auto;
+  font-size: 35px; }
+  .text-box:hover {
+    border: tomato solid 2px; }
+
+button {
+  border: none;
+  background-color: tomato;
+  color: white;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  margin: 5px 0 20px;
+  padding: 10px 20px; }
+  button:hover {
+    background-color: #e64a2e; }
+
+.madlib-output {
+  display: none;
+  font-size: 22px;
+  line-height: 1.2em;
+  max-width: 1000px;
+  margin: 0 auto 40px; }
+
+span {
+  font-weight: bold;
+  color: tomato; }

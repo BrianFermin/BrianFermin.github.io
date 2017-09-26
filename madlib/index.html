@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>MADLIB</title> 
+	<!--   //LINKING OUR CSS STYLESHEET -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!--  //LINKING OUR ANIMATION CSS LIBARARY  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:300" rel="stylesheet">
+
+</head>
+
+<body>
+	<!-- //CREATING OUR MAIN WRAPPER TO HOLD OUR MADLIB -->
+	<div class="madlib-wrapper">
+		<h1>MADLIB</h1>
+		<!--    //CREATING AN INPUT FIELD FOR USER-INTERACTION -->
+		<div class="input-container">	
+			<input type="text" class="text-box" id="adverb" placeholder="Adverb" />
+			<input type="text" class="text-box" id="noun" placeholder="Noun (Singular)" />
+			<input type="text" class="text-box" id="Job-Title" placeholder="Job-Title" />
+			<input type="text" class="text-box" id="noun-2" placeholder="Noun (Plural)" />
+			<input type="text" class="text-box" id="adjective" placeholder="Adjective" />  
+			<!--      //CREATING A BUTTON SO ACTIVATE THE USER-INPUT FIELD -->
+			<button id="madlib-toggle">MADLIB IT!</button>
+		</div>
+		<!--       //CREATING AN OUTPUT FOR OUR MADLIB -->
+		<p class="madlib-output">
+			To be <span id="adverb-output"></span> in an (a) <span id="noun-output"></span> like ours, <span id="Job-Title-output"></span> must be in a position of  <span id="noun-2-output"></span>. That in itself would be enough to make me  <span id="adjective-output"></span>.
+		</p>
+	</div>
+
+	<!-- //LOADING OUR JAVASCRIPT CODE + JAVASCRIPT LIBRARY AND JQUERY -->
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js'></script>
+	<script src="js/index.js"></script>
+
+</body>
+</html>
